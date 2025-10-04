@@ -79,3 +79,20 @@ font-family: 'Playfair Display', serif;
     background-position: center;
     background-size: cover;
 }
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover,
+.menu a:focus,
+.menu a:active {
+    background-color: #756158;
+}
