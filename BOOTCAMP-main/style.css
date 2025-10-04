@@ -120,11 +120,13 @@ td {
 }
 .kontakt .foto-kontakt {
   width: 80%;              
-  max-width: 400px;        
+  max-width: 700px;        
   height: auto;            
   display: block;          
   margin: 30px auto;       
-  border-radius: 8px;      
+  border-radius: 8px;   
+  padding: 6px;   
+  background: linear-gradient(135deg, #98918d, #221b1b);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -133,7 +135,7 @@ td {
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
 }
 .kontakt:hover {
-  background: linear-gradient(135deg, #d18d44, #f0e8c7);
+  background: linear-gradient(135deg, #282625, #f0e8c7);
   transition: background 0.6s ease;
 }
 .kontakt a:hover {
@@ -155,12 +157,25 @@ td {
   position: relative;
   z-index: 1;
 }
+.blink {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
 .foto-omne {
     width: 200px;
     border-radius: 50%;
     float: left;
     margin: 0 30px 30px 0;
 }
+
 
 .omne {
 background-color:rgb(243, 157, 28);
