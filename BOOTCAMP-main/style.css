@@ -28,7 +28,7 @@ a {
 
 .paticka,
 .menu {
-    background-color: #282425;
+    background-color: rgb(13, 44, 35);
 }
 
 .paticka,
@@ -74,7 +74,7 @@ font-family: 'Playfair Display', serif;
 */
 .hlavicka {
     padding: 150px 30px;
-    background-image: url(obrazky/hlavicka.jpg);
+    background-image: url(obrazky/MenuObr.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
