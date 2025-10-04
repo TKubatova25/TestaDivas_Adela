@@ -58,6 +58,9 @@ section
 .menu
 {margin: 0;
 padding: 0;}
+.fotogalerie img {width: 32%;
+    border-radius: 10px;
+    border: 2px solid #756158
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
