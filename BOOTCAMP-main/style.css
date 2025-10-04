@@ -58,6 +58,57 @@ section
 .menu
 {margin: 0;
 padding: 0;}
+
+.kontakt {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 60px 40px;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);
+  border-radius: 24px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+.kontakt .foto-kontakt {
+  width: 80%;              
+  max-width: 400px;        
+  height: auto;            
+  display: block;          
+  margin: 30px auto;       
+  border-radius: 8px;      
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.kontakt .foto-kontakt:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+.kontakt:hover {
+  background: linear-gradient(135deg, #d18d44, #f0e8c7);
+  transition: background 0.6s ease;
+}
+.kontakt a:hover {
+  color: #9b1b5f;
+  text-decoration: underline;
+}
+.kontakt h3 {
+  margin-top: 40px;
+  color: #562d04;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  position: relative;
+  z-index: 1;
+}
+.kontakt h2 {
+  font-size: 2.4rem;
+  color: #2e1902;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+}
 /*
 font-family: 'Raleway', sans-serif;
 font-family: 'Playfair Display', serif;
